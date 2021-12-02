@@ -21,6 +21,12 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="标头.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="snbt.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -29,18 +35,39 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\Lib\bedrock_server_api.lib">
+    <Library Include="..\..\LiteLoaderBDS\Release\Chakra.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\LiteLoaderBDS\Release\LiteLoader.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\third-party\detours\detours.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Header\third-party\cpp-base64\lib\cpp-base64.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\third-party\openssl\libcrypto.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\third-party\openssl\libssl.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\third-party\leveldb\leveldb.lib">
       <Filter>资源文件</Filter>
     </Library>
     <Library Include="..\Lib\bedrock_server_var.lib">
       <Filter>资源文件</Filter>
     </Library>
-    <Library Include="..\Lib\LiteLoader.lib">
+    <Library Include="..\Lib\SymDBHelper.lib">
       <Filter>资源文件</Filter>
     </Library>
-    <Library Include="..\Lib\SymDBHelper.lib">
+    <Library Include="..\Lib\bedrock_server_api.lib">
       <Filter>资源文件</Filter>
     </Library>
   </ItemGroup>
