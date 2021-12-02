@@ -3,9 +3,9 @@
 #include <MC/HashedString.hpp>
 #include <LoggerAPI.h>
 //#include <MC/SimulatedPlayer.hpp>
-#pragma comment(lib, "../Lib/bedrock_server_api.lib")
-#pragma comment(lib, "../Lib/bedrock_server_var.lib")
-#pragma comment(lib, "../Lib/SymDBHelper.lib")
+#pragma comment(lib, "../../LiteLoaderBDS/LiteLoader/Lib/bedrock_server_api.lib")
+#pragma comment(lib, "../../LiteLoaderBDS/LiteLoader/Lib/bedrock_server_var.lib")
+#pragma comment(lib, "../../LiteLoaderBDS/LiteLoader/Lib/SymDBHelper.lib")
 
 
 void entry();

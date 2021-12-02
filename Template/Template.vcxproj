@@ -187,9 +187,9 @@ copy /Y $(TargetPath) $(LocalDebuggerWorkingDirectory)\plugins
     <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\third-party\openssl\libssl.lib" />
     <Library Include="..\..\LiteLoaderBDS\Release\Chakra.lib" />
     <Library Include="..\..\LiteLoaderBDS\Release\LiteLoader.lib" />
-    <Library Include="..\Lib\bedrock_server_api.lib" />
-    <Library Include="..\Lib\bedrock_server_var.lib" />
-    <Library Include="..\Lib\SymDBHelper.lib" />
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\bedrock_server_api.lib" />
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\bedrock_server_var.lib" />
+    <Library Include="..\..\LiteLoaderBDS\LiteLoader\Lib\SymDBHelper.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
